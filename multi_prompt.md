@@ -3,7 +3,6 @@
 </task>
 
 <context_info>
-*Lưu ý cho người dùng: Hãy cung cấp Tên sách/Tác giả nếu có thể để AI nhận diện ngữ cảnh tốt hơn.*
 **Tên sách:** [tên sách]
 **Tác giả:** [tên tác giả]
 </context_info>
