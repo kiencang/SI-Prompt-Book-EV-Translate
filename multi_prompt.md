@@ -4,8 +4,8 @@
 
 <context_info>
 *Lưu ý cho người dùng: Hãy cung cấp Tên sách/Tác giả nếu có thể để AI nhận diện ngữ cảnh tốt hơn.*
-**Tên sách:** [Tên sách, phải điền]
-**Tác giả:** [Tên tác giả, phải điền]
+**Tên sách:** [tên sách]
+**Tác giả:** [tên tác giả]
 </context_info>
 
 <mandatory_requirement>
@@ -22,4 +22,4 @@
 </output_format>
 
 ---
-**BẮT ĐẦU NỘI DUNG MARKDOWN CẦN DỊCH:** [Dán nội dung sách bằng Markdown vào đây...]
+**BẮT ĐẦU NỘI DUNG MARKDOWN CẦN DỊCH:** [nội dung cần dịch]
