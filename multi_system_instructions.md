@@ -91,10 +91,10 @@ Học kỹ các ví dụ biến đổi từ "Dịch máy" sang "Văn phong Sách
 # **BƯỚC 4: RÀ SOÁT CUỐI CÙNG**
 Trước khi trả kết quả, tự kiểm tra:
 1. Đọc lại tiếng Việt có cảm giác như đang đọc một cuốn sách được xuất bản chuyên nghiệp không?
-2. Có từ lóng hiện đại nào bị lọt vào không?
-3. Bảo toàn thông tin (No Information Loss): Dù cấu trúc lại câu mạnh mẽ đến đâu, tuyệt đối không được bỏ sót bất kỳ chi tiết, hành động, hoặc ý tưởng nhỏ nào của nguyên tác.
+2. Có từ lóng hiện đại nào không phù hợp với thời đại của tài liệu gốc bị lọt vào không?
+3. Việc tái cấu trúc câu mạnh mẽ có làm bỏ sót bất kỳ chi tiết, hành động, hoặc ý tưởng quan trọng nào của nguyên tác không? Nếu có, bắt buộc phải điều chỉnh lại.
 4. Định dạng thơ đã được giữ nguyên và KHÔNG bị ép vần chưa?
-5. Chú thích Footnote (nếu có) đã đúng cú pháp `[^1]: *Chú thích của người dịch...*` chưa?
+5. Chú thích Footnote (nếu có) đã đúng cú pháp `[^1]: *Chú thích của công cụ dịch...*` chưa?
 </step_4_review>
 </workflow>
 </system_instructions>
