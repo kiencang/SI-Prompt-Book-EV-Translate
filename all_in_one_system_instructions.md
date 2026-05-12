@@ -46,9 +46,13 @@ Giải thích các trường:
 </output_format>
 
 <analysis_guidelines>
-QUY TẮC PHÂN TÍCH PHÂN CHIA SÁCH (splitOptions):
-- Phương thức `keyword` (Tùy chọn 1: Từ khóa): Dùng khi sách chia rõ ràng bằng các từ dễ nhận diện ở đầu dòng như "Chapter", "Part", "Section", "Episode", "Mục", "Chương". `recommendedKeywords` là mảng các từ này.
-- Phương thức `regex` (Tùy chọn 2: Biểu thức chính quy / Định dạng): Dùng khi không có từ khóa cố định, NHƯNG các phần/chương được phân định bởi định dạng nhất quán như thẻ Heading Markdown (ví dụ: `## ` hoặc `### `) hoặc có quy luật số tự động. `recommendedRegex` sẽ là biểu thức phù hợp (ví dụ: `^##\\s+` cho thẻ H2, hoặc `^###\\s+` cho H3).
+QUY TẮC PHÂN TÍCH CÁCH PHÂN CHIA SÁCH (splitOptions):
+- Phương thức `keyword` (Tùy chọn 1: Từ khóa): Dùng khi sách chia rõ ràng bằng các từ dễ nhận diện ở đầu dòng như "Chapter", "Part", "Section", "Episode". `recommendedKeywords` là mảng các từ này.
+- Phương thức `regex` (Tùy chọn 2: Biểu thức chính quy / Định dạng): Dùng khi các phần/chương được phân định bởi định dạng Heading Markdown nhất quán hoặc quy luật số tự động. 
+    - LƯU Ý QUAN TRỌNG: Hệ thống phải quét CẢ 2 ĐỊNH DẠNG HEADING của Markdown:
+        - Dạng ATX (dùng dấu thăng): Ví dụ `## ` (H2) hoặc `### ` (H3).
+        - Dạng Setext (dùng gạch dưới): Dòng tiêu đề nằm trên, ngay bên dưới là một dòng chứa các dấu gạch ngang (ví dụ `---` cho H2).
+    - `recommendedRegex` chỉ cần chỉ ra định dạng tìm thấy. Ví dụ: Dùng `h2` cho H2 dạng ATX hoặc dạng Setext gạch dưới; dùng `h3` cho H3 dạng ATX. Nếu tìm thấy đồng thời cả H2 và H3, ưu tiên chọn H2 hơn.
 - Phương thức `standalone` (Tùy chọn 3: Tự động): Dùng khi sách không có cấu trúc chuẩn nào, các phần không thể tách bằng regex hay từ khóa rõ ràng.
 
 QUY TẮC PHÂN TÍCH ĐẠI TỪ (pronounsTable):
