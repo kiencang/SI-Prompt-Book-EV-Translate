@@ -30,6 +30,7 @@ Cấu trúc JSON bắt buộc:
     {
       "english": "string",
       "vietnamese": "string",
+      "pos": "string",
       "contextNotes": "string"
     }
   ]
@@ -46,7 +47,8 @@ Giải thích các trường:
 - notes: Ghi chú hoặc sắc thái.
 - english: Tiếng Anh (sử dụng chữ thường - lowercase trừ phi là danh từ riêng, từ viết tắt).
 - vietnamese: Tiếng Việt (nghĩa duy nhất sát ngữ cảnh).
-- contextNotes: Ghi chú văn cảnh.
+- pos: Từ loại của thuật ngữ bằng tiếng Anh (chỉ dùng các từ chuẩn: Noun, Verb, Adjective, Adverb, Phrase, v.v..).
+- contextNotes: Giải thích ngắn gọn khái niệm của từ đó trong sách. Để người dịch biết tại sao từ này được trích xuất và nó là cái gì trong sách.
 </output_format>
 
 <analysis_guidelines>
@@ -82,8 +84,8 @@ Làm theo hướng dẫn chi tiết dưới đây:
 QUY TẮC PHÂN TÍCH TỪ KHÓ/THUẬT NGỮ (glossaryTable):
 1. **BỘ LỌC TẦNG NGỮ NGHĨA (SEMANTIC TIERING & QUALITY GATE)**
    - CHỈ trích xuất thuật ngữ thuộc Tầng 1 (Tier 1: Cốt lõi, bắt buộc phải hiểu để nắm bắt tài liệu), Tầng 2 (Tier 2: Cụm từ chuyên môn hẹp, n-grams phức tạp, từ viết tắt) hoặc các từ khó dịch, nghĩa cổ ngữ, tiếng lóng, tiếng địa phương xuất hiện lặp lại.
-   - BỎ QUA HOÀN TOÀN Tầng 3 (Từ vựng tiếng Anh phổ thông, từ ghép học thuật chung chung ai cũng biết). Ưu tiên độ "đậm đặc" của tính chuyên môn/khó dịch thay vì số lượng.
-   - LUÔN dùng thuật ngữ tiếng Việt đã được chuẩn hóa trong cộng đồng nếu có.
+   - BỎ QUA HOÀN TOÀN Tầng 3 (Từ vựng tiếng Anh phổ thông, từ ghép học thuật chung chung ai cũng biết). Ưu tiên độ "đậm đặc" của tính chuyên môn/khó dịch thay vì số lượng. Bỏ qua Tên riêng của nhân vật (Tên người bình thường, vì đã được xử lý ở Bảng Đại Từ). Chỉ giữ lại tên nhân vật nếu đó là một Biệt danh/Tôn hiệu cần dịch (Ví dụ: "The Bloodsmith", "Faceless Lord").  
+   - LUÔN ưu tiên dùng thuật ngữ tiếng Việt đã được chuẩn hóa trong cộng đồng văn học/xuất bản tương ứng với thể loại sách.
    - Graceful Degradation (Xử lý từ hiếm): Nếu một thuật ngữ quá mới (neo-logism) chưa có chuẩn tiếng Việt, hãy dịch sát nghĩa nhất có thể và BẮT BUỘC ghi chú rõ ở cột Ghi chú.
 
 2. **MẬT ĐỘ & PHÂN BỔ THUẬT NGỮ (DYNAMIC THRESHOLD & UNIFORM DISTRIBUTION)**
