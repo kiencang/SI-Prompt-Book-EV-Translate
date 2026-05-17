@@ -5,6 +5,10 @@ Tất cả những thay đổi đáng chú ý của dự án kiencang/Book-silaT
 Định dạng dựa trên [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 và dự án này tuân thủ [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.24]- 2026-05-18
+### Fixed
+- Điều chỉnh phần trích xuất Đại từ nhân xưng chuẩn hơn.
+
 ## [v1.0.23]- 2026-05-17
 ### Fixed
 - Bỏ các tag XML, vì nội dung có thể rỗng, nên các tag XML được cấu trúc luôn trong lệnh xử lý trước khi thế thân vào prompt.
