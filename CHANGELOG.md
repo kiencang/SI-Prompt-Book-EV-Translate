@@ -9,3 +9,7 @@ và dự án này tuân thủ [Semantic Versioning](https://semver.org/spec/v2.0
 ### Fixed
 - Chỉnh sửa prompt động, thêm các tag XML để AI phân biệt rõ ràng hơn.
 - Sửa file PDF 2 Markdown, bổ sung ngoại lệ không can thiệp ngắt dòng của thơ.
+
+## [v1.0.23]- 2026-05-17
+### Fixed
+- Bỏ các tag XML, vì nội dung có thể rỗng, nên các tag XML được cấu trúc luôn trong lệnh xử lý trước khi thế thân vào prompt.
