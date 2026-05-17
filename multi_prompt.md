@@ -5,9 +5,15 @@
 <context_info>
 **Tên sách:** {{tên sách}}
 **Tác giả:** {{tên tác giả}}
+<pronouns_rules>
 {{đại từ nhân xưng}}
+</pronouns_rules>
+<glossary_rules>
 {{thuật ngữ}}
+</glossary_rules>
+<previous_chunk_handoff>
 {{tóm tắt bối cảnh}}
+</previous_chunk_handoff>
 </context_info>
 
 <mandatory_requirement>
