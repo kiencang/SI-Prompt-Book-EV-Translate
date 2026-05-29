@@ -5,6 +5,10 @@ Tất cả những thay đổi đáng chú ý của dự án kiencang/Book-silaT
 Định dạng dựa trên [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 và dự án này tuân thủ [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.28]- 2026-05-29
+### Fixed
+- Thêm mô tả Giọng điệu (Capture Tone) vào phần tóm tắt để giảm ảnh hưởng của đoạn bị cắt giữa chừng.
+
 ## [v1.0.27]- 2026-05-19
 ### Fixed
 - Cập nhật sang tiếng Việt SI liên quan đến chuẩn hóa danh sách bảng Đại từ & Tóm tắt khối/chương dịch.
