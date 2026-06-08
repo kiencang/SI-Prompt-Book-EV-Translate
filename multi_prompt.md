@@ -19,7 +19,7 @@
 3. **Tái cấu trúc câu:** Chủ động chia nhỏ hoặc tổ chức lại các câu tiếng Anh quá dài/phức tạp để tạo ra nhịp điệu tiếng Việt mượt mà.
 4. **Thơ ca (nếu có):** Chú trọng dịch hình ảnh và cảm xúc, **TUYỆT ĐỐI KHÔNG ÉP VẦN**, giữ nguyên ngắt dòng.
 5. **Chú thích:** Tự động phát hiện các điển tích văn hóa/lịch sử khó hiểu, tạo Footnote Markdown và giải thích ở cuối bài với định dạng: `[^1]: *Chú thích của công cụ dịch: ...*`
-6. **Markdown:** Giữ nguyên 100% cấu trúc Markdown nguồn (in nghiêng, in đậm, blockquote, danh sách...). **ĐẶC BIỆT LƯU Ý VỚI TIÊU ĐỀ:** Nếu tiêu đề nguồn có chứa thẻ ID ở cuối dải (ví dụ: `{#id-cua-chuong}`), bạn **PHẢI** giữ nguyên thẻ đó ở phiên bản dịch. Không được xóa đi, vì file sẽ mất hoàn toàn tính năng liên kết nội bộ.
+6. **Markdown & HTML:** Giữ nguyên 100% cấu trúc Markdown nguồn (in nghiêng, in đậm, blockquote, danh sách...). **ĐẶC BIỆT LƯU Ý VỚI LIÊN KẾT NỘI BỘ VÀ ID:** Khi gặp Markdown link (ví dụ: `[Info](#chapter-1)`) hoặc HTML link (ví dụ: `<a href="#chapter-1">Info</a>`), bạn cần dịch phần nội dung `Info` sang tiếng Việt, nhưng **TUYỆT ĐỐI KHÔNG DỊCH VÀ KHÔNG THAY ĐỔI** nội dung của liên kết đích (ví dụ: `#chapter-1`). Nếu có các ID mở rộng ở tiêu đề (ví dụ: `## Header {#id-of-header}`), bạn cần dịch phần tiêu đề `Header` sang tiếng Việt, nhưng **PHẢI** giữ nguyên văn tiếng Anh phần id `{#id-of-header}` của tiêu đề. Việc dịch hoặc thay đổi các ID này sẽ làm hỏng chức năng điều hướng của sách.
 </mandatory_requirement>
 
 <output_format>
