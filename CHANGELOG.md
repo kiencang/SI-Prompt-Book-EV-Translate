@@ -5,6 +5,10 @@ Tất cả những thay đổi đáng chú ý của dự án kiencang/Book-silaT
 Định dạng dựa trên [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 và dự án này tuân thủ [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.33]- 2026-06-12
+### Fixed
+- Chỉnh lại SI/Prompt tài liệu chuyên ngành, điều chỉnh một số mâu thuẫn, tàn dư do ảnh hưởng của bộ dịch HTML, và bộ dịch Văn học.
+
 ## [v1.0.32]- 2026-06-11
 ### Fixed
 - Bổ sung SI/Prompt riêng cho tài liệu khoa học chuyên ngành.
