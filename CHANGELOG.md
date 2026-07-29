@@ -5,6 +5,20 @@ Tất cả những thay đổi đáng chú ý của dự án kiencang/Book-silaT
 Định dạng dựa trên [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 và dự án này tuân thủ [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.36]- 2026-07-29
+### Fixed
+- Loại bỏ các chỉ thị phức tạp liên quan đến Latex, chuyển thành dạng đơn giản hơn;
+- Chuyển đổi các mã Latex đơn giản thành dạng chỉ số trên (do khi chuyển sang markdown từ PDF, các chỉ số trên lồng Latex vào, ví dụ `$^{12}$`;
+- Đầu vào markdown không thể có độ chính xác Latex tuyệt đối nên các chỉ thị không hiệu quả;
+
+## [v1.0.35]- 2026-06-N/A
+### Fixed
+- Khắc phục tình trạng lỗi do quá trình phân tích markdown làm mất dấu backslash () trước ngoặc nhọn;
+
+## [v1.0.34]- 2026-06-N/A
+### Fixed
+- Điều chỉnh một chút chỉ thị liên quan đến xử lý công thức toán học mà cú pháp là LaTex.
+
 ## [v1.0.33]- 2026-06-12
 ### Fixed
 - Chỉnh lại SI/Prompt tài liệu chuyên ngành, điều chỉnh một số mâu thuẫn, tàn dư do ảnh hưởng của bộ dịch HTML, và bộ dịch Văn học.
