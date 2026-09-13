@@ -7,7 +7,7 @@ và dự án này tuân thủ [Semantic Versioning](https://semver.org/spec/v2.0
 
 ## [v1.0.38]- 2026-09-14
 ### Fixed
-- Điều chỉnh tiếp SI/Prompt tóm tắt cho thể loại khoa học;
+- Điều chỉnh tiếp SI tóm tắt theo từng thể loại;
 
 ## [v1.0.37]- 2026-09-05
 ### Fixed
