@@ -5,6 +5,14 @@ Tất cả những thay đổi đáng chú ý của dự án kiencang/Book-silaT
 Định dạng dựa trên [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 và dự án này tuân thủ [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.38]- 2026-09-14
+### Fixed
+- Điều chỉnh tiếp SI/Prompt tóm tắt cho thể loại khoa học;
+
+## [v1.0.37]- 2026-09-05
+### Fixed
+- Cập nhật SI/Prompt tóm tắt chunk tùy theo thể loại tài liệu cần dịch;
+
 ## [v1.0.36]- 2026-07-29
 ### Fixed
 - Loại bỏ các chỉ thị phức tạp liên quan đến Latex, chuyển thành dạng đơn giản hơn;
