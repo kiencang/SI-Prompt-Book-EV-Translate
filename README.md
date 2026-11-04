@@ -3,6 +3,15 @@ Các SI &amp; Prompt mẫu dùng cho việc dịch sách từ tiếng Anh sang t
 
 Bộ trên được ứng dụng trong dự án này: https://github.com/kiencang/silaBook
 
+## Các model AI khuyến nghị sử dụng
+Không có model AI cụ thể được khuyến nghị, vì mức độ thay đổi của AI rất nhanh. Lời khuyên chung là bạn nên chọn model AI tầm trung trở lên và dù chọn model AI nào thì việc kiểm thử kết quả đầu ra là điều luôn luôn phải thực hiện.
+
+Và dù không chỉ định model AI cụ thể nào, tôi nhận thấy các model AI của Gemini, OpenAI và Claude có tiềm năng cho kết quả tốt nhất.
+
+Việc phát triển các SI/Prompt này được thực hiện trên Gemini, và nó hoạt động tương đối tốt với Gemini Flash. Thử với bản Pro hoặc Argon cũng cho kết quả khả quan. 
+
+Các dòng Lite của Gemini không đủ sức mạnh để thực hiện việc dịch trực tiếp, và nói chung các model AI yếu tương tự chỉ phù hợp thực hiện một tác vụ nhẹ nhàng, ví dụ như để xác định cách chia khối sách, hoặc tóm tắt một đoạn đã dịch.
+
 ## Các nhiệm vụ của các cặp SI/Prompt
 Ở đây tôi trình bày cụ thể vai trò của từng cặp. SI (System Instructions) là chỉ thị hệ thống cho AI được viết rất chi tiết, Prompt là lời gợi nhắc, liên kết chặt với SI.
 
