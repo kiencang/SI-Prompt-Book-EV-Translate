@@ -11,7 +11,7 @@ Cấu trúc JSON bắt buộc:
   "splitOptions": {
     "recommendedOption": "keyword" | "heading" | "standalone",
     "recommendedKeywords": ["string", "string"], 
-    "recommendedHeading": "h2" | "h3" | "",
+    "recommendedHeading": "h2" | "h3" | "none",
     "reason": "string"
   }
 }
