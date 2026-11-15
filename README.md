@@ -52,16 +52,17 @@ Bộ bên dưới sẽ lọc ra các thuật ngữ cần thiết (xuất hiện 
 - `filter_glossary_system_instruction.md`
 
 ### Dịch theo phong cách khoa học
+Đây chính là SI/Prompt chỉ thị trực tiếp cho AI việc dịch từng chương trong sách. Nó tối ưu cho dịch sách thể loại khoa học.
 - `scientific_prompt.md`
 - `scientific_system_instructions.md`
 
 ### Dịch theo phong cách văn chương
+Còn đây là cặp SI/Prompt tối ưu cho thể loại văn chương, tiểu thuyết, truyện ngắn. Việc chia 2 phong cách dịch theo từng thể loại lớn thế này phát huy tác dụng rất mạnh. Các chỉ thị bên trong sẽ khớp tốt nhất với thể loại mà chúng dịch.
 - `multi_prompt.md`
 - `multi_system_instructions.md`
 
 ### Tóm tắt chunk trước để đưa bối cảnh vào chunk sau
 Nó cũng phân theo thể loại:
-
 - Khoa học: `summary_scientific_prompt.md` và `summary_scientific_system_instruction.md`
 - Văn chương: `summary_multi_prompt.md` và `summary_multi_system_instruction.md`
 
