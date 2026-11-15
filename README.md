@@ -79,4 +79,4 @@ Lưu ý là chúng tôi khuyến khích người dùng sử dụng công cụ c�
 - Chuyển bằng công cụ sẽ tốn token (chi phí);
 - Không giữ được ảnh trong bản gốc, bản chuyển đổi chỉ có thuần văn bản;
 
-Người dùng nên dùng các công cụ mạnh và miễn phí để chuyển PDF sang markdown, ví dụ như PaddleOCR hoặc MinierU.
+Người dùng có thể sử dụng các công cụ mạnh và miễn phí để chuyển PDF sang markdown, ví dụ như [PaddleOCR](https://aistudio.baidu.com/paddleocr) hoặc [MinerU](https://mineru.net/).
